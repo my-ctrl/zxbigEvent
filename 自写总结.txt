@@ -1,0 +1,41 @@
+rel 属性 -- rel属性,描述了当前页面与href所指定文档的关系,
+ rel是relationship(关系)的英文缩写. rev 属性 -- rev属性,
+ 描述了href所指定文档与当前页面的关系, rev是reverse link(反向链接)的英文缩写.
+ rel, rev属性通常出现在a,link标签中。
+
+ background-image: url(images/logo.png);
+引号加不加都可以，最好不加
+background: url(skin/img/xuanzhong@1x.png);
+background: url('skin/img/xuanzhong@1x.png');
+background: url("skin/img/xuanzhong@1x.png");
+
+（1,1,2,3,5,8, 13,21,44）
+f6  f5 f4
+ f4 f3     f3 f2
+ f3 f2  f2 f1     f2 f1  f1 f0
+ f2  f1   f1 f0  f1 f0  f10    f1 f0 f10  f10
+  f1 f0
+
+
+f3    f2 f1
+f1 f0  f1 f0
+
+
+form表单标签：可以设置宽高，内边距外边距等
+校验规则：1是规则，2是提示消息，不满足1则提示消息2
+
+属性选择器：属性不加引号，属性值可加也可不加引号
+ /* 必须是input 但是同时具有 value这个属性 选择这个元素  [] */
+        /* input[value] {
+            color:pink;
+        } */
+
+$.ajaxPrefilter  options 重点思考下
+
+user-select: none; 禁止a标签里面的文字选中
+
+
+<iframe name="fm" src="/home/dashboard.html" frameborder="0"></iframe>
+ <a href="/home/dashboard.html" target="fm">
+
+ 
